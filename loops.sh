@@ -37,7 +37,8 @@ done
 counter=1
 
 while [ $counter -le 10 ];do
-    echo -n "$counter "
+    echo -n "counter: $counter "
+   # counter=$(( counter + 1 ))
     (( counter++ ))
 done
 
